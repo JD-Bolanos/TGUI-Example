@@ -7,16 +7,18 @@ import { BannerSection } from './components/BannerSection';
 import { TimelineSection } from './components/TimelineSection/TimelineSection';
 import { TooltipSection } from './components/TooltipSection/TooltipSection';
 import { ModalSection } from './components/ModalSection/ModalSection';
+import { PhoneAuth } from './components/PhoneAuth/PhoneAuth'; // import our new component
 
 export const App = () => (
   <AppRoot>
     <List>
-      <CellSection />
+      <PhoneAuth />
+      {/* <CellSection />
       <FormSection />
       <BannerSection />
       <TimelineSection />
       <TooltipSection />
-      <ModalSection />
+      <ModalSection /> */}
     </List>
   </AppRoot>
 );
